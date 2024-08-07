@@ -629,9 +629,23 @@ input:hover, textarea:hover, input:active, textarea:active {
             transform: translateX(-100%); /* Termina en la izquierda */
         }
     }
+
+    @media screen and (max-width: 1024px){
+        .contenidodelfooter {
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .contenidodelfooter p {
+            text-align: center;
+        }
+    }
         
 
-    @media screen and (max-width: 1024px) and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .logoindex {
             width: 601px;
             height: 454px;
@@ -680,8 +694,8 @@ input:hover, textarea:hover, input:active, textarea:active {
         }
     
         #contenedorcv {
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left: 16%;
+            margin-right: 1676%;
             margin-top: 80px;
         }
     
@@ -740,7 +754,7 @@ input:hover, textarea:hover, input:active, textarea:active {
         }   
 }
 
-@media screen and (max-width: 768px) and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .logoindex {
         width: 401px;
         height: 254px;
