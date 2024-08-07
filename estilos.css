@@ -645,6 +645,7 @@ input:hover, textarea:hover, input:active, textarea:active {
     }
 
     .contenidodelfooter {
+        margin: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
