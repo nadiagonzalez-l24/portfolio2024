@@ -631,7 +631,7 @@ input:hover, textarea:hover, input:active, textarea:active {
     }
         
 
-    @media screen and (min-width: 768px) and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) and (max-width: 768px) {
         .logoindex {
             width: 601px;
             height: 454px;
@@ -740,7 +740,7 @@ input:hover, textarea:hover, input:active, textarea:active {
         }   
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width: 600px) {
     .logoindex {
         width: 501px;
         height: 354px;
