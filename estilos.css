@@ -742,8 +742,8 @@ input:hover, textarea:hover, input:active, textarea:active {
 
 @media screen and (max-width: 768px) and (max-width: 600px) {
     .logoindex {
-        width: 501px;
-        height: 354px;
+        width: 401px;
+        height: 254px;
     }
 
     .fotoypresentacion {
