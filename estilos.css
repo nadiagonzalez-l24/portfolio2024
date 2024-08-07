@@ -419,6 +419,7 @@ p {
 }
 
 #galeria {
+    justify-content: center;
     margin: 50px 24% 100px 24%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -519,8 +520,8 @@ p {
 }
 
 .filas input {
-    width: 400px;
-    height: 40px;
+    width: 300px;
+    height: 30px;
     border: none;
     border: 2px solid #283f68;
     border-radius: 10px;
@@ -546,7 +547,7 @@ p {
 }
 
 .formopciones, .mensaje {
-    width: 400px;
+    width: 300px;
 }
 
 .parapaddingtop {
@@ -559,7 +560,7 @@ p {
 }
 
 textarea {
-    width: 400px;
+    width: 300px;
     height: 80px;
     border: none;
     border: 2px solid #283f68;
@@ -579,7 +580,7 @@ input:hover, textarea:hover, input:active, textarea:active {
 }
 
 .contenedorbotonescontacto input {
-    width: 400px;
+    width: 300px;
     background-color: #283f68;
     color: white;
     font-weight: 900;
@@ -630,7 +631,7 @@ input:hover, textarea:hover, input:active, textarea:active {
     }
         
 
-    @media only screen and (max-width: 768px) {
+    @media (min-width: 768px) and (max-width: 1024px) {
         .logoindex {
             width: 601px;
             height: 454px;
@@ -736,33 +737,10 @@ input:hover, textarea:hover, input:active, textarea:active {
         #contenedordelformulario {
             margin-left: 10%;
             margin-right: 10%;
-        }
-    
-        .filas {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-    
-        .formdatos {
-            gap: 20px;
-        }
-    
-        .parapaddingtop {
-            padding-top: 0;
-        }
-    
-        .interesymensaje {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .subtitulosdelform {
-            text-align: center;
-        }    
+        }   
 }
 
-@media only screen and (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 768px) {
     .logoindex {
         width: 501px;
         height: 354px;
@@ -783,6 +761,13 @@ input:hover, textarea:hover, input:active, textarea:active {
         display: flex;
         align-self: center;
         padding-right: 0;
+    }
+
+    .navindex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
     .contenidodelfooter {
