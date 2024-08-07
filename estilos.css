@@ -595,10 +595,10 @@ input:hover, textarea:hover, input:active, textarea:active {
     background-color: #ff6600;
 }
 
-.fondocolor2 {
+.fondocinta {
     background-color: transparent;
-    border-top: 2px solid #283f68;
-    border-bottom: 2px solid #283f68;
+    border-top: 2px solid #ff6600;
+    border-bottom: 2px solid #ff6600;
     margin-left: 16%;
     margin-right: 16%;
     display: flex;
@@ -614,6 +614,10 @@ input:hover, textarea:hover, input:active, textarea:active {
     padding-top: 10px;
     display: inline-block;
     animation: cinta 30s linear infinite;
+}
+
+.cinta h2 {
+    color: #ff6600;
 }
 
     @keyframes cinta {
@@ -731,6 +735,7 @@ input:hover, textarea:hover, input:active, textarea:active {
     .filas {
         display: flex;
         flex-direction: column;
+        gap: 20px;
     }
 
     .formdatos {
