@@ -746,6 +746,10 @@ input:hover, textarea:hover, input:active, textarea:active {
         flex-direction: column;
     }
 
+    .subtitulosdelform {
+        text-align: center;
+    }
+
     .contenedorbotonescontacto {
         padding-top: 10px;
         display: flex;
