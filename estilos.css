@@ -519,7 +519,7 @@ p {
 }
 
 .filas input {
-    width: 340px;
+    width: 400px;
     height: 40px;
     border: none;
     border: 2px solid #283f68;
@@ -546,7 +546,7 @@ p {
 }
 
 .formopciones, .mensaje {
-    width: 340px;
+    width: 400px;
 }
 
 .parapaddingtop {
@@ -559,7 +559,7 @@ p {
 }
 
 textarea {
-    width: 340px;
+    width: 400px;
     height: 80px;
     border: none;
     border: 2px solid #283f68;
@@ -579,7 +579,7 @@ input:hover, textarea:hover, input:active, textarea:active {
 }
 
 .contenedorbotonescontacto input {
-    width: 340px;
+    width: 400px;
     background-color: #283f68;
     color: white;
     font-weight: 900;
@@ -628,7 +628,139 @@ input:hover, textarea:hover, input:active, textarea:active {
             transform: translateX(-100%); /* Termina en la izquierda */
         }
     }
+        
 
+    @media only screen and (max-width: 768px) {
+        .logoindex {
+            width: 601px;
+            height: 454px;
+        }
+    
+        .fotoypresentacion {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .contenedordeflor {
+            display: flex;
+            align-self: center;
+            padding-right: 0;
+        }
+    
+        .contenidodelfooter {
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .contenidodelfooter p {
+            text-align: center;
+        }
+    
+        .navgeneral {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    
+        .botonera {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .navgeneral, .fondocolor, .fondocolor2 {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            border-radius: 0;
+        }
+    
+        #contenedorcv {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 80px;
+        }
+    
+        .fotoconnombre {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .nombreydescripcion {
+            text-align: center;
+        }
+    
+        .nombreydescripcion h1 {
+            color: #283f68;
+            padding-bottom: 20px;
+        }
+    
+        .todainformacion {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 50px;
+        }
+    
+        .todainformacion h2 {
+            text-align: center;
+        }
+    
+        .izquierda, .derecha {
+            width: 100%;
+        }
+    
+        .izquierda .barra1 {
+            width: 100%;
+        }
+    
+        .fondocinta {
+            margin: 0;
+            width: 100%;
+        }
+    
+        #galeria {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 40px;
+            grid-row-gap: 20px;
+        }
+    
+        #contenedordelformulario {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    
+        .filas {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    
+        .formdatos {
+            gap: 20px;
+        }
+    
+        .parapaddingtop {
+            padding-top: 0;
+        }
+    
+        .interesymensaje {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .subtitulosdelform {
+            text-align: center;
+        }    
+}
 
 @media only screen and (max-width: 600px) {
     .logoindex {
@@ -640,6 +772,11 @@ input:hover, textarea:hover, input:active, textarea:active {
         display: flex;
         flex-direction: column;
         gap: 30px;
+    }
+
+    .fotoperfil {
+        width: 284px;
+        height: 284px;
     }
 
     .contenedordeflor {
@@ -679,8 +816,8 @@ input:hover, textarea:hover, input:active, textarea:active {
     }
 
     #contenedorcv {
-        margin-left: 6%;
-        margin-right: 6%;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 80px;
     }
 
@@ -719,6 +856,11 @@ input:hover, textarea:hover, input:active, textarea:active {
         width: 100%;
     }
 
+    .fondocinta {
+        margin: 0;
+        width: 100%;
+    }
+
     #galeria {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -728,8 +870,8 @@ input:hover, textarea:hover, input:active, textarea:active {
     }
 
     #contenedordelformulario {
-        margin-left: 6%;
-        margin-right: 6%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
     .filas {
@@ -762,3 +904,5 @@ input:hover, textarea:hover, input:active, textarea:active {
         gap: 10px;
     }
 }
+
+   
