@@ -630,129 +630,207 @@ input:hover, textarea:hover, input:active, textarea:active {
         }
     }
 
-    @media screen and (max-width: 1024px){
-        .contenidodelfooter {
-            margin: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
-    
-        .contenidodelfooter p {
-            text-align: center;
-        }
+@media screen and (max-width: 1200px){
+    .fotoypresentacion {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
-        
-
-    @media screen and (max-width: 768px) {
-        .logoindex {
-            width: 601px;
-            height: 454px;
-        }
     
-        .fotoypresentacion {
+    .contenedordeflor {
+        display: flex;
+        align-self: center;
+        padding-right: 0;
+    }
+
+    .contenidodelfooter {
+        margin-left: 10%;
+        margin-right: 10%;
+    }  
+
+    #contenedorcv {
+        margin-left: 16%;
+        margin-right: 16%;
+    } 
+}  
+    
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+    .contenidodelfooter {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .contenidodelfooter p {
+        text-align: center;
+    }
+
+    .fondocolor {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    #contenedorcv {
+        margin-left: 16%;
+        margin-right: 16%;
+        margin-top: 80px;
+    }
+    
+    .fotoconnombre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .nombreydescripcion {
+        text-align: center;
+    }
+    
+    .nombreydescripcion h1 {
+        color: #283f68;
+        padding-bottom: 20px;
+    }
+    
+    .todainformacion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
+    
+    .todainformacion h2 {
+        text-align: center;
+    }
+    
+    .izquierda, .derecha {
+        width: 100%;
+    }
+    
+    .izquierda .barra1 {
+        width: 100%;
+    }
+    
+    .fondocinta {
+        margin: 0;
+        width: 100%;
+    }
+    
+    #galeria {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logoindex {
+        width: 601px;
+        height: 454px;
+    }
+    
+    .fotoypresentacion {
             display: flex;
             flex-direction: column;
             gap: 30px;
         }
     
-        .contenedordeflor {
-            display: flex;
-            align-self: center;
-            padding-right: 0;
-        }
+    .contenedordeflor {
+        display: flex;
+        align-self: center;
+        padding-right: 0;
+    }
     
-        .contenidodelfooter {
-            margin: 0px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
+    .contenidodelfooter {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
     
-        .contenidodelfooter p {
-            text-align: center;
-        }
+    .contenidodelfooter p {
+        text-align: center;
+    }
     
-        .navgeneral {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
+    .navgeneral {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
     
-        .botonera {
-            display: flex;
-            justify-content: center;
-        }
+    .botonera {
+        display: flex;
+        justify-content: center;
+    }
     
-        .navgeneral, .fondocolor, .fondocolor2 {
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            border-radius: 0;
-        }
+    .navgeneral, .fondocolor, .fondocolor2 {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+    }
     
-        #contenedorcv {
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-top: 80px;
-        }
+    #contenedorcv {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 80px;
+    }
     
-        .fotoconnombre {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
+    .fotoconnombre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
     
-        .nombreydescripcion {
-            text-align: center;
-        }
+    .nombreydescripcion {
+        text-align: center;
+    }
     
-        .nombreydescripcion h1 {
-            color: #283f68;
-            padding-bottom: 20px;
-        }
+    .nombreydescripcion h1 {
+        color: #283f68;
+        padding-bottom: 20px;
+    }
     
-        .todainformacion {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            gap: 50px;
-        }
+    .todainformacion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+    }
     
-        .todainformacion h2 {
-            text-align: center;
-        }
+    .todainformacion h2 {
+        text-align: center;
+    }
     
-        .izquierda, .derecha {
-            width: 100%;
-        }
+    .izquierda, .derecha {
+        width: 100%;
+    }
     
-        .izquierda .barra1 {
-            width: 100%;
-        }
+    .izquierda .barra1 {
+        width: 100%;
+    }
     
-        .fondocinta {
-            margin: 0;
-            width: 100%;
-        }
+    .fondocinta {
+        margin: 0;
+        width: 100%;
+    }
     
-    
-        #galeria {
-            justify-content: center;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
-            grid-column-gap: 40px;
-            grid-row-gap: 20px;
-        }
-    
-        #contenedordelformulario {
-            margin-left: 10%;
-            margin-right: 10%;
-        }   
+    #galeria {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 40px;
+        grid-row-gap: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
